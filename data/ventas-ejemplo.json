@@ -1,0 +1,32 @@
+[
+  {
+    "fecha": "2026-01-01",
+    "categoria": "Producto A",
+    "monto": 1500.00,
+    "descripcion": "Venta de producto A"
+  },
+  {
+    "fecha": "2026-01-02",
+    "categoria": "Producto B",
+    "monto": 2300.50,
+    "descripcion": "Venta de producto B"
+  },
+  {
+    "fecha": "2026-01-03",
+    "categoria": "Servicio",
+    "monto": 800.00,
+    "descripcion": "Servicio de consultoría"
+  },
+  {
+    "fecha": "2026-01-04",
+    "categoria": "Producto C",
+    "monto": 1200.00,
+    "descripcion": "Venta de producto C"
+  },
+  {
+    "fecha": "2026-01-05",
+    "categoria": "Producto A",
+    "monto": 1750.00,
+    "descripcion": "Venta de producto A - segunda venta"
+  }
+]

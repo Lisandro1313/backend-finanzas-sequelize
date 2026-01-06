@@ -1,0 +1,32 @@
+[
+  {
+    "fecha": "2026-01-01",
+    "categoria": "Servicios",
+    "monto": 450.00,
+    "descripcion": "Pago de servicios básicos"
+  },
+  {
+    "fecha": "2026-01-02",
+    "categoria": "Suministros",
+    "monto": 320.50,
+    "descripcion": "Compra de suministros de oficina"
+  },
+  {
+    "fecha": "2026-01-03",
+    "categoria": "Transporte",
+    "monto": 150.00,
+    "descripcion": "Gastos de transporte"
+  },
+  {
+    "fecha": "2026-01-04",
+    "categoria": "Marketing",
+    "monto": 890.00,
+    "descripcion": "Campaña publicitaria"
+  },
+  {
+    "fecha": "2026-01-05",
+    "categoria": "Servicios",
+    "monto": 550.00,
+    "descripcion": "Hosting y dominios"
+  }
+]

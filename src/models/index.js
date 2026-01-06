@@ -1,0 +1,26 @@
+const { Sequelize } = require('sequelize');
+const config = require('../config/database');
+
+const env = process.env.NODE_ENV || 'development';
+const dbConfig = config[env];
+
+const sequelize = new Sequelize(
+    dbConfig.database,
+    dbConfig.username,
+    dbConfig.password,
+    {
+        host: dbConfig.host,
+        port: dbConfig.port,
+        dialect: dbConfig.dialect,
+        logging: false
+    }
+);
+
+const db = {
+    sequelize,
+    Sequelize,
+    Venta: require('./venta')(sequelize, Sequelize),
+    Gasto: require('./gasto')(sequelize, Sequelize)
+};
+
+module.exports = db;
