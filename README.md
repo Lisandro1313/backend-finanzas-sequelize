@@ -1,6 +1,23 @@
 # Microservicio Ventas/Gastos (Sequelize)
 
-Microservicio para gestión de ventas y gastos utilizando Node.js, Express y Sequelize ORM con PostgreSQL.
+![Node.js](https://img.shields.io/badge/Node.js-16+-green)
+![Express](https://img.shields.io/badge/Express-4.18-blue)
+![Sequelize](https://img.shields.io/badge/Sequelize-6.35-orange)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12+-blue)
+![JWT](https://img.shields.io/badge/JWT-Authentication-red)
+
+Microservicio para gestión de ventas y gastos utilizando Node.js, Express y Sequelize ORM con PostgreSQL. Incluye autenticación JWT y rastreo de usuarios.
+
+## 🚀 Características
+
+- ✅ CRUD completo de Ventas y Gastos
+- ✅ Autenticación JWT integrada
+- ✅ Campo `usuario_id` para rastrear quién creó cada registro
+- ✅ Soft delete (eliminación lógica)
+- ✅ Filtros por período (día, semana, mes, año)
+- ✅ Dashboard con datos agregados
+- ✅ Importación masiva desde JSON
+- ✅ Migraciones con Sequelize
 
 ## Requisitos
 
